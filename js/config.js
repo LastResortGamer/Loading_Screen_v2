@@ -18,9 +18,9 @@
 */
 
 var config = {
-    music: ["VpZk0l6LV5s", "56sxLl-jXc4"],
-    songnames: ["Mati Nuude - No Oota Sa!", "lilbubblegum - af1"],
-    musicVolume: 15, // volume should be under 50% to not cause earrape
+    music: ["2HtvFJqCQt4", "csF95sR6lmY"],
+    songnames: ["Kevin Flum - U Mad Bro?", "Arman Cekin - Better Days (ft. Faydee & Karra)"],
+    musicVolume: 5, // volume should be under 50% to not cause earrape
     enableMusic: true
 }
 
