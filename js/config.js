@@ -20,7 +20,7 @@
 var config = {
     music: ["VpZk0l6LV5s", "56sxLl-jXc4"],
     songnames: ["Mati Nuude - No Oota Sa!", "lilbubblegum - af1"],
-    musicVolume: 40, // volume should be under 50% to not cause earrape
+    musicVolume: 15, // volume should be under 50% to not cause earrape
     enableMusic: true
 }
 
