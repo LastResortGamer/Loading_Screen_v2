@@ -108,7 +108,7 @@ function setVolume(volume) {
 // Code added by Nigol (github.com/raitnigol).
 // Get the song name and show it on the loading screen.
 var songName = config.songnames[musicIndex];
-document.getElementById("currentSong").innerHTML = "Currently playing: " + songName;
+document.getElementById("currentSong").innerHTML = "<font face='PaybAck' size='4px'>Currently playing</font>: " + songName;
 
 // Mute when pressing spacebar.
 var keyPressed = document.getElementById("changeColor");
@@ -124,12 +124,12 @@ function onKeyDown(event) {
                 play = false;
                 // Change the colors to what you like, but I think the default red / green works best.
                 keyPressed.style.color = "red";
-                // muteStatus.innerHTML = "unmute";
+                muteStatus.innerHTML = "unmute";
             } else {
                 player.playVideo();
                 play = true;
                 keyPressed.style.color = "green";
-                // muteStatus.innerHTML = "mute";
+                muteStatus.innerHTML = "mute";
             }
             break;
     }
@@ -147,7 +147,7 @@ function onKeyDown2(event) {
                 while (lastSong == musicIndex) { musicIndex = Math.floor(Math.random() * config.music.length); }
 
                 songName = config.songnames[musicIndex]
-                document.getElementById("currentSong").innerHTML = "Currently playing: " + songName;
+                document.getElementById("currentSong").innerHTML = "<font face='PaybAck' size='4px'>Currently playing</font>: " + songName;
                 var idx = musicIndex % config.music.length;
                 var videoId = config.music[idx];
                 player.loadVideoById(videoId, 0, "tiny");

@@ -19,7 +19,7 @@
 
 var config = {
     music: ["csF95sR6lmY", "2HtvFJqCQt4", "S7zZXGxy5vg", "cxQCiZ3z2PY", "vBGiFtb8Rpw", "Bb49BP5WdD4"],
-    songnames: ["Arman Cekin - Better Days (ft. Faydee & Karra)", "Kevin Flum - U Mad Bro?", "Defqwop – Heart Afire (feat. Strix)", "Behind The Mastermind - Nerdout (ft. NemRaps & Ben Schuller11", "Culture Code - Make Me Move (feat. Karra)", "Came Witta Beam - Kaneezy"],
+    songnames: ["Arman Cekin - Better Days (ft. Faydee & Karra)", "Kevian Flum - U Mad Bro?", "Defqwop – Heart Afire (feat. Strix)", "Behind The Mastermind - Nerdout (ft. NemRaps & Ben Schuller)", "Culture Code - Make Me Move (feat. Karra)", "Came Witta Beam - Kaneezy"],
     musicVolume: 5, // volume should be under 50% to not cause earrape
     enableMusic: true
 }
