@@ -18,8 +18,8 @@
 */
 
 var config = {
-    music: ["csF95sR6lmY", "2HtvFJqCQt4", "S7zZXGxy5vg", "cxQCiZ3z2PY", "vBGiFtb8Rpw", "Bb49BP5WdD4", "qN4ooNx77u0"],
-    songnames: ["Arman Cekin - Better Days (ft. Faydee & Karra)", "Kevian Flum - U Mad Bro?", "Defqwop – Heart Afire (feat. Strix)", "Behind The Mastermind - Nerdout (ft. NemRaps & Ben Schuller)", "Culture Code - Make Me Move (feat. Karra)", "Came Witta Beam - Kaneezy", "Harry Styles - Sign of the Times"],
+    music: ["csF95sR6lmY", "2HtvFJqCQt4", "S7zZXGxy5vg", "cxQCiZ3z2PY", "vBGiFtb8Rpw", "Bb49BP5WdD4", "qN4ooNx77u0", "lDLEEpPUdu8", "TJhqsLxAdS4", "8p57znHfA9U"],
+    songnames: ["Better Days - Arman Cekin(ft. Faydee & Karra)", "U Mad Bro? - Kevian Flum", "Heart Afire  - Defqwop (feat. Strix)", "Behind The Mastermind - Nerdout (ft. NemRaps & Ben Schuller)", "Make Me Move - Culture Code (feat. Karra)", "Came Witta Beam - Kaneezy", "Sign of the Times - Harry Styles", "E Pill - Kaneezy", "Demons - Stunna Gambino", "HEARTLESS - Kaneezy"],
     musicVolume: 10, // volume should be under 50% to not cause earrape
     enableMusic: true
 }
